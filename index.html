@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+ <html lang="en-US">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Netcode Browser</title>
+     <link rel="stylesheet" href="app.css">
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">-->
+<link rel="icon" href="netcode.png">
+</head>
+<body>
+<script src="app.js"></script>
+<!--<script src="search.js"></script>-->
+<div class="header">
+    <div class="container">
+
+        <div class="box">
+            <div class="hours">
+                <h1 id="hours">8</h1>
+            </div>
+            
+        </div>
+
+
+        <div class="box">
+            <div class="minutes">
+                <h1 id="minutes">8</h1>
+            </div>
+            
+        </div>
+        <div class="box">
+            <div class="seconds">
+                <h1 id="seconds">8</h1>
+           </div>         
+        </div>    
+    </div>
+</div>
+<div class="logo">
+<img src="netcode.png" width="30%" height="30%">
+</div>
+<form id="VoiceAssistant" action="https://www.google.com/search" method="GET" target="_blank">
+<input type="text" id="transcript" name="q" class="toolbox" placeholder="Search or enter web address">
+<img src="mic.png" onclick="startRecognition()" class="microphone" width="5%" height="5%"><img src="logofull.png" class="fulllogo" width="60%">
+</form>
+
+<!--Top Sites-->
+<a href="https://www.google.com" target="_blank"><img src="g.png" width="17%" class="google"></a>
+<a href="https://www.netflix.com" target="_blank"><img src="netflix.png" width="17%" class="netflix"></a>
+<a href="https://www.microsoft.com" target="_blank"><img src="microsoft.png" width="17%" class="microsoft"></a>
+<a href="https://in.yahoo.com" target="_blank"><img src="yahoo.png" width="18%" class="Yahoo"></a>
+<a href="https://www.youtube.com" target="_blank"><img src="youtube.png" width="19%" class="Youtube"></a>
+<a href="https://www.facebook.com" target="_blank"><img src="facebook.png" width="17%" class="Facebook"></a>
+<a href="https://www.instagram.com" target="_blank"><img src="instagram.png" width="18%" class="Instagram"></a>
+<a href="https://mail.google.com" target="_blank"><img src="Gmail.png" width="35%" class="GMAIL"></a>
+<a href="https://blogger.google.com" target="_blank"><img src="blogger.png" width="20%" class="Blogger"></a>
+
+
+
+
+    <script src="time.js"></script>  
+</body>
+</html>
